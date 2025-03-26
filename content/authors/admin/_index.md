@@ -35,7 +35,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/gcushen
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
+    url: www.linkedin.com/in/min-zhang-414a33295
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
 
@@ -45,7 +45,7 @@ education:
     date_start: 2023-10-02
     date_end: ''
     summary: |
-      Thesis on _Scalable Ranking on Large Graph_. Supervised by [Prof Weiren Yu](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Thesis on _Scalable Ranking on Large Graph_. Supervised by [Prof Weiren Yu](https://warwick.ac.uk/fac/sci/dcs/people/weiren_yu/). Research Topic: Data Mining, Information retrieval.
     #button:
     #  text: 'Read Thesis'
     #  url: 'https://example.com'
@@ -57,10 +57,13 @@ education:
      Distinction
 
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc (Honors) Computer Science
+      - Machine Learning for Economics and Finance
+      - Text Mining for Economics and Finance
+      - Blockchain and Applications
+      - Financial Econometrics in R/Python
+      - Big Data in Finance
+      - etc.
+  - area: BSc (Hons) Computer Science
     institution: University of Liverpool
     date_start: 2018-09-28
     date_end: 2020-07-15
@@ -68,32 +71,49 @@ education:
       1st Class
       
       Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Introduction to Data Science
+      - Advanced Artificial Intelligence
+      - Computer Vision
+      - Introduction to Computational Game Theory
+      - etc.
+  - area: BSc Information and Computing Science
+    institution: Xi’an Jiaotong-Liverpool University
+    date_start: 2018-09-28
+    date_end: 2020-07-15
+    summary: |
+      1st Class
+      
+      Courses included:
+      - Linear Algebra, Multivariable Calculus
+      - Introduction to Programming in Java
+      - Algorithmic Foundations and Problem Solving, Data Structures
+      - Computer System
+      - etc.
 work:
   - position: Financial Technology Product Manager
-    company_name: Mingsheng Banking
+    company_name: China Minsheng Banking Corp. LTD.
     company_url: ''
     company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+    date_start: 2022-07-01
+    date_end: 2023-09-01
     summary: |
       Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
+      - Analyze and transfer business requirements to the functional requirements
+      - Familiar with the existing digital banking "public maintenance funds" special account supervision, "payroll", "fund custody" and "supply chain repayment" product functions, analyze and write requirement documents, draw system interaction diagram.
+      - Expand unified electronic payment channels, and connect with the order system to design standardized Internet payment webpage.
+      - Analyze and write the requirement documents of the agent payment component, agent payment document component, transaction anti-duplicate component, C2P maximum amount component, intelligent transfer route component, bill statement component and cash management product operation monitoring in the product standardization construction, and draw the corresponding flow chart and prototype demo.
+  - position: Digital Customer Business Analyst, internship
+    company_name: Deloitte Consulting (Shanghai) CO., LTD. 
+    company_url: ''
+    company_logo: ''
+    date_start: 2021-08-01
+    date_end: 2021-09-01
+    summary: |
+      Responsibilities include:
+      - Joined the project of digital customer consulting Project. Discussed requirements of two function parts of customer’s system with employees. Analyzed requirements of these two parts. Wrote the detailed requirement documentation.
+      - Communicated with developers to elaborate on requirements and propose initial approaches and timeline.
+      - Followed up the progress of development of these two parts and answered any questions from developers about details.
+      - Tested functionalities according to the pre-defined testing case, and reported any error to the developers.
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -140,31 +160,31 @@ languages:
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
+  - title: 'Accelerating CUDA C++ Applications with Multiple GPUs'
+    url: https://learn.nvidia.com/certificates?id=dUFfRBzwQ3GQ6lyn7UjFbQ
+    date: '2024-08-09'
     awarder: NVIDIA
     icon: nvidia
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
+   # summary: |
+   #   I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+  - title: '2024 CFA China Future Financial Analyst Competition'
+    url: https://mp.weixin.qq.com/s/EpO7f-FznrLXrrB_t06a8Q
+    date: '2024-05-01'
+    awarder: CFA Institute
     icon: cfa
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
+    #summary: |
+     # Learned:
+    #  - Synthesize your own blockchain solutions
+     # - Gain an in-depth understanding of the specific mechanics of Bitcoin
+     # - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+ # - title: 'Object-Oriented Programming in R'
+  #  url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+  #  certificate_url: https://www.datacamp.com
+  #  date: '2023-01-21'
+  #  awarder: datacamp
+  #  icon: datacamp
+  #  summary: |
+  #    Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-I am currently Director of Cloud Infrastructure at GenCoin where I am leading teams on edge computing, deep sea data center architecture, and hivemind optimization.
+I am currently a PhD student at UoW where I am researching on scalable node ranking, link analysis, graph mining, and information retrieval.
