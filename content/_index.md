@@ -37,12 +37,14 @@ sections:
         **2025-04** 🎉 Paper accepted at **SIGIR 2025**.
 
         **2024-05** 🏆 Won CFA China Future Financial Analyst Competition.
-      design:
-        background:
-          gradient_start: '#4bb4e3'
-          gradient_end: '#2b94c3'
-          gradient_angle: 180
-        view: compact
+    design:
+      css_class: news-box
+      #background:
+      #  color: 'navy'
+      #  text_color_light: true # White text
+      #spacing:
+      #  padding: ['0.5rem', '0', '0.5rem', '0']
+      view: showcase
   - block: collection    
     id: pub                                         
     content:
@@ -51,8 +53,11 @@ sections:
       sort_by: date
       sort_ascending: false
     design:
-     # view: citation
-     view: compact
+      view: citation
+      columns: '1'
+      css_class: pub-section
+      
+    #  view: compact
   #- block: markdown
   #   content:
   #  title: Publications

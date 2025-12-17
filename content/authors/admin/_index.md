@@ -40,17 +40,6 @@ profiles:
   #- icon: brands/instagram
   #  url: https://www.instagram.com/
 
-News:
-    text: |
-        **2026-01** 🧠 Participated in the **Alan Turing Institute Data Study Group (DSG)**.
-
-        **2025-09** 🤝 Served as a **Volunteer for PVLDB**.
-
-        **2025-04** 🎉 Paper accepted at **SIGIR 2025**.
-
-        **2024-05** 🏆 Won CFA China Future Financial Analyst Competition.
-    design:
-      columns: '1'
 education:
   - area: PhD Computer Science
     institution: University of Warwick
@@ -104,7 +93,11 @@ education:
 #publication:
 #  -[SIGIR'25] Min Zhang and Weiren Yu. 2025. UPPR+ Scaling Uncertain Personalised PageRank Computation on Billion-Sized Graphs with Mutually Exclusive Edges. In Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR '25). Association for Computing Machinery, New York, NY, USA, 2473–2482. https://doi.org/10.1145/3726302.3730113
 work:
-  - position: Financial Technology Product Manager
+  - position: Senior Teaching Assistant, part-time
+    company_name: Department of Computer Science, University of Warwick
+    date_start: 2024-01-01
+    date_end: ''
+  - position: Financial Technology Product Manager, full-time
     company_name: China Minsheng Banking Corp. LTD.
     company_url: ''
     company_logo: ''
@@ -136,23 +129,26 @@ skills:
     items:
       - name: Python
         description: ''
-        percent: 80
+        percent: 95
         icon: devicon/python
       - name: RStudio
         description: ''
-        percent: 50
+        percent: 70
         icon: devicon/rstudio
       - name: Matlab
         description: ''
-        percent: 80
+        percent: 100
         icon: devicon/matlab
+      - name: C++
+        percent: 60 
+        icon: devicon/cplusplus
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
       - name: Hiking
         description: ''
-        percent: 60
+        percent: 80
         icon: person-simple-walk
       #- name: Cats
       #  description: ''
@@ -160,7 +156,7 @@ skills:
       #  icon: cat
       - name: Photography
         description: ''
-        percent: 80
+        percent: 90
         icon: camera
 
 languages:
@@ -168,6 +164,8 @@ languages:
     percent: 100
   - name: English
     percent: 80
+  - name: Spanish
+    percent: 20
 
 # Awards.
 #   Add/remove as many awards below as you like.

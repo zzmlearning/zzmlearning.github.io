@@ -20,3 +20,49 @@
   left: 0;
   top: 0;
 }
+
+.news-box {
+  max-width: 900px;          /* 不铺满 */
+  margin: 0 auto 2rem auto;  /* 居中 + 下留白 */
+  padding: 1rem 1.25rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background-color: #fafafa;
+}
+
+.news-box h2,
+.news-box h3 {
+  margin-top: 0;
+}
+
+.news-box p {
+  font-size: 0.98rem;
+  line-height: 1.2;
+  opacity: 0.95;
+}
+.news-box strong {
+  display: inline-block;
+  min-width: 4.8em;   /* 对齐 2026-01 */
+}
+
+#pub .flex {
+  background: none !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+#pub .flex.flex-col {
+  padding-left: 0rem;
+  border-left: 2px solid #082869;
+  margin-bottom: -3rem;
+}
+#pub a {
+  color: #1f2937;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+#pub time,
+#pub .text-gray-500 {
+  font-size: 12px;
+  color: #6b7280;
+}

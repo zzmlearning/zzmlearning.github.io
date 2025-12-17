@@ -1,11 +1,10 @@
 ---
-number: [1]
 title: "UPPR+: Scaling Uncertain Personalised PageRank Computation on Billion-Sized Graphs with Mutually Exclusive Edges"
 authors:
   - Min Zhang
   - Weiren Yu
 
-publication: "SIGIR '25: Proceedings of the 48th International ACM SIGIR Conference on Research and Development in Information Retrieval"
+publication: "Proceedings of SIGIR 2025"
 date: 2025-07-13
 
 publication_types: ["1"]  # Conference paper

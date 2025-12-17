@@ -1,1 +1,0 @@
-#publications{counter-reset:pub-counter}#publications .flex.flex-col.gap-3{counter-increment:pub-counter;position:relative;padding-left:2.4em}#publications .flex.flex-col.gap-3::before{content:"[" counter(pub-counter)"] ";font-weight:600;position:absolute;left:0;top:0}
