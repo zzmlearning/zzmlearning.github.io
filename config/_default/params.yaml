@@ -7,6 +7,8 @@
 appearance:
   mode: system
   color: blue
+  custom_css:
+    - css/custom.css
 
 # SEO
 marketing:
@@ -53,3 +55,4 @@ features:
     enable: false
   privacy_pack:
     enable: false
+

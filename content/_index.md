@@ -15,9 +15,9 @@ sections:
     content:
       username: admin
       # Show a call-to-action button under your biography? (optional)
-      #button:
-      #  text: Download Resume
-      #  url: /static/uploads/CV.pdf
+      button:
+        text: Download Resume
+        url: /uploads/CV.pdf
     design:
       banner:
         # Upload your cover image to the `assets/media/` folder and reference it here
@@ -39,15 +39,27 @@ sections:
         **2024-05** 🏆 Won CFA China Future Financial Analyst Competition.
       design:
         columns: '1'
+        background:
+          color: 'gray'
+        spacing:
+          padding: ['0.5rem', '0', '0.5rem', '0']
   - block: collection
     content:
       title: Publications
       page_type: publication
-      count: 20
       sort_by: date
       sort_ascending: false
     design:
       view: citation
+  #- block: markdown
+  #   content:
+  #  title: Publications
+  #  text: |
+   #   **[1]** Min Zhang, Weiren Yu.  
+   #   *UPPR+: Scaling Uncertain Personalized PageRank on Large Graphs.*  
+   #   Proceedings of SIGIR 2025.  
+   #   [[PDF]](/files/sigir25.pdf)
+
   - block: experience
     content:
       username: admin

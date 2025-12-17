@@ -1,0 +1,1 @@
+.pub-list{counter-reset:pub-counter}.pub-list .pub{counter-increment:pub-counter}.pub-list .pub::before{content:"[" counter(pub-counter)"] ";font-weight:600;margin-right:.3em}
