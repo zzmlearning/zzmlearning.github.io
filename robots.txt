@@ -1,3 +1,3 @@
 User-agent: *
 
-Sitemap: https://zzmlearning.github.io/zzmlearning/sitemap.xml
+Sitemap: https://zzmlearning.github.io/sitemap.xml
