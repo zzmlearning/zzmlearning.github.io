@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: Min Zhang # Website name
-baseURL: 'https://uncertain-graph.github.io/' # Website URL
+baseURL: 'https://zzmlearning.github.io/zzmlearning/' # Website URL
 
 ############################
 ## LANGUAGE
